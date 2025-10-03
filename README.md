@@ -1,50 +1,41 @@
 <header>
 
 <!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+  <<< Author notes: Initial post >>>
+  Part of basic setup, using the tutorial templates
 -->
 
-# GitHub Pages
+# Don Levey
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+_Documenting my technical projects and journey toward self-education._
 
 </header>
 
 <!--
   <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked the homepage content was not empty.
+  Text of first post - on LinkedIn first, and copied here
 -->
 
-## Step 3: Customize your homepage
+title: 03-Oct-2025: My first post
 
-_Nice work setting the theme! :sparkles:_
+## Oct-03-2025
 
-You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
+_My first post: Introduction :sparkles:_
 
-### :keyboard: Activity: Create your homepage
+I've been dipping my toe into GitHub, and it's time to really learn the platform. To that end, I've created a repository (https://github.com/donlevey/dlevey-github-blog) that will journal my education and work in IT Security. Hopefully, I will be able to include posts (such as this) which are of (potentially) general interest, as well as things specific to the technical issues I encounter.
 
-1. Browse to the `index.md` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Type the content you want on your homepage. You can use Markdown formatting on this page.
-1. (optional) You can also modify `title:` or just ignore it for now. We'll discuss it in the next step.
-1. Commit your changes to the `my-pages` branch.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+I'll be starting to work on Hack The Box (https://www.hackthebox.com/), so I plan to record my processes, procedures, thoughts, and reports on the modules there. As I increase my knowledge and involvement, I will be (of course) adding new avenues for research as I encounter them. I don't expect I will be making any ground-breaking discoveries, but perhaps this will give people some insight as to my growth in the field, and maybe even provide a few pointers to others beginning this path.
+
+For the sake of those who might be interested, I will try to duplicate (or at least refer to) those various posts here and on LinkedIn.
 
 <footer>
 
 <!--
   <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+  I need to make sure to add varied, regular content.
 -->
 
 ---
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
