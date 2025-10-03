@@ -12,21 +12,49 @@ _Documenting my technical projects and journey toward self-education._
 </header>
 
 <!--
-  <<< Author notes: Step 3 >>>
-  Text of first post - on LinkedIn first, and copied here
+  <<< Author notes: Step 4 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: previous version checked the file path. Previous version checked the front matter formatting.
 -->
 
-title: 03-Oct-2025: My first post
+## Step 4: Create a blog post
 
-## Oct-03-2025
+_Your home page is looking great! :cowboy_hat_face:_
 
-_My first post: Introduction :sparkles:_
+GitHub Pages uses Jekyll. In Jekyll, we can create a blog by using specially named files and frontmatter. The files must be named `_posts/YYYY-MM-DD-title.md`. You must also include `title` and `date` in your frontmatter.
 
-I've been dipping my toe into GitHub, and it's time to really learn the platform. To that end, I've created a repository (https://github.com/donlevey/dlevey-github-blog) that will journal my education and work in IT Security. Hopefully, I will be able to include posts (such as this) which are of (potentially) general interest, as well as things specific to the technical issues I encounter.
+**What is _frontmatter_?**: The syntax Jekyll files use is called YAML frontmatter. It goes at the top of your file and looks something like this:
 
-I'll be starting to work on Hack The Box (https://www.hackthebox.com/), so I plan to record my processes, procedures, thoughts, and reports on the modules there. As I increase my knowledge and involvement, I will be (of course) adding new avenues for research as I encounter them. I don't expect I will be making any ground-breaking discoveries, but perhaps this will give people some insight as to my growth in the field, and maybe even provide a few pointers to others beginning this path.
+```yml
+---
+title: "Welcome to my blog"
+date: 2019-01-20
+---
+```
 
-For the sake of those who might be interested, I will try to duplicate (or at least refer to) those various posts here and on LinkedIn.
+For more information about configuring front matter, see the [Jekyll frontmatter documentation](https://jekyllrb.com/docs/frontmatter/).
+
+### :keyboard: Activity: Create a blog post
+
+1. Browse to the `my-pages` branch.
+1. Click the `Add file` dropdown menu and then on `Create new file`.
+1. Name the file `_posts/YYYY-MM-DD-title.md`.
+1. Replace the `YYYY-MM-DD` with today's date, and change the `title` of your first blog post if you'd like.
+   > If you do edit the title, make sure there are hyphens between your words.
+   > If your blog post date doesn't follow the correct date convention, you'll receive an error and your site won't build. For more information, see "[Page build failed: Invalid post date](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites)".
+1. Type the following content at the top of your blog post:
+   ```yaml
+   ---
+   title: "YOUR-TITLE"
+   date: YYYY-MM-DD
+   ---
+   ```
+1. Replace `YOUR-TITLE` with the title for your blog post.
+1. Replace `YYYY-MM-DD` with today's date.
+1. Type a quick draft of your blog post. Remember, you can always edit it later.
+1. Commit your changes to your branch.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 <footer>
 
