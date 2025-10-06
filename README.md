@@ -11,7 +11,7 @@ _Documenting my technical projects and journey toward self-education._
 
 </header>
 
-## 10-03-2025: My first plost
+## 10-03-2025: My first post
 
 I've been dipping my toe into GitHub, and it's time to really learn the platform. To that end, I've created a repository (https://github.com/donlevey/dlevey-github-blog) that will journal my education and work in IT Security. Hopefully, I will be able to include posts (such as this) which are of (potentially) general interest, as well as things specific to the technical issues I encounter.
 
